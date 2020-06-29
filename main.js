@@ -1,7 +1,16 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function addMeToEnd(arr){
+arr.push('Colin');
+}
 
+function addMeToStart(arr){
+  arr.unshift('Colin');
+}
+function changeLast(arr){
+  arr.slice(0, 3);
+}
 
 
 
