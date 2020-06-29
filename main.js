@@ -8,14 +8,33 @@ arr.push('Colin');
 function addMeToStart(arr){
   arr.unshift('Colin');
 }
-function changeLast(arr){
-  arr.slice(1, 2, 5);
+function changeLast(arr,value){
+  arr[arr.length -1] = value;
 }
 
-function changeAllValuesTo(arr){
-
+function changeAllValuesTo(arr, value){
+for (let i = 0; i< arr.length; i++){
+  arr[i] = value
+}
 }
 
+function oddOrEven(arr){
+for (let i =0; i< arr.length; i++){
+  if(arr[i] % 2 === 0){
+    arr[i] = 'even'
+  }else {
+    arr[i] = 'odd'
+  }
+}
+
+function changeNextThreeToValue(start1, arr1, value1){
+  let i =start1;
+  while (i < start + 3){
+    arr1[i] = value1q 
+    i = i + 1
+  }
+}
+}
 
 
 
