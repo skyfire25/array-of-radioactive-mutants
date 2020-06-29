@@ -9,7 +9,11 @@ function addMeToStart(arr){
   arr.unshift('Colin');
 }
 function changeLast(arr){
-  arr.slice(0, 3);
+  arr.slice(1, 2, 5);
+}
+
+function changeAllValuesTo(arr){
+
 }
 
 
